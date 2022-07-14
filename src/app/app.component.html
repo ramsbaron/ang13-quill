@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<quill-editor
+  [styles]="{ height: '200px' }"
+  onblur="blur()"
+  onchange="changedEditor()"
+>
+</quill-editor>
+
+blurred = {{ blurred }}<br />
+focused = {{ focused }}
